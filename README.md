@@ -31,6 +31,9 @@ npm run dev
 ## Try out the app
 
 Open the Vite's dev URL [http://localhost:5173](http://localhost:5173) in the browser and check the app.
+It is recipe book app, but right now only show a placeholder text instead of recipes.
+
+It uses [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) for styling.
 
 ## Running the tests
 
@@ -43,7 +46,7 @@ npm test
 The tests are written in [Jest](https://jestjs.io/docs/getting-started).
 
 Also the [Testing Library](https://testing-library.com/docs/dom-testing-library/intro) 
-is used to access the DOM.
+is used to test the DOM.
 
 ## Tasks
 
