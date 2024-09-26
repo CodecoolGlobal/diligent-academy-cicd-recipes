@@ -1,3 +1,5 @@
+import { getRecipes } from "./recipes.js";
+
 
 function element(tag, attributes = {}, children = []) {
   const element = document.createElement(tag);
